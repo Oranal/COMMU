@@ -1,3 +1,4 @@
+#open data base
 import unittest
 from tkinter import *
 import sqlite3
@@ -15,3 +16,4 @@ def OpenData():
     if cursor.fetchone() is None:
         cursor.execute("INSERT INTO  'Users' ('User_Name', 'Password', 'First_Name', 'Last_Name', 'User_Type') VALUES (?,?,?,?,?)", (ADMINNAME, ADMINPASSWORD, "Administrator","Administrator","Admin"))
         conn.commit()
+ 

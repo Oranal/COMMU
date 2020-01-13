@@ -3,8 +3,8 @@ from tkinter import *
 import sqlite3
 import tkinter as tk
 from tkinter import filedialog
-import test
-from test import CreateToolTip
+import Board
+from Board import CreateToolTip
 
 
 ADMINNAME="Admin"
